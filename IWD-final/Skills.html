@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: greenyellow;
+            background: url('Codingg.gif') center/cover no-repeat;
+            background-size: 100% 100%;
+        }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 100px;
+        }
+
+        .skill {
+            display: flex;
+            text-align: left;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            width: 100%;
+        }
+
+        .skill:hover {
+            transform: scale(1.03);
+        }
+
+        .skill img {
+            width: 30%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .skill-details {
+            padding-left: 20px;
+            width: 60%;
+        }
+
+        .skill h2 {
+            margin: 10px 0;
+            color: #333;
+            font-size: 50px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .skill p {
+            margin: 5px 0;
+            font-weight: bold;
+            color: #666;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            text-align: center;
+        }
+
+        .skill-details img {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+    </style>
+    <title>Skills Showcase</title>
+</head>
+<body>
+
+    <div class="skills-container">
+        <div class="skill">
+            <img src="htmlcssjs-overview.jpeg" alt="Web Development Image">
+            <div class="skill-details">
+                <a href="https://en.wikipedia.org/wiki/Web_development#:~:text=Web%20development%20is%20the%20work,businesses%2C%20and%20social%20network%20services."><h2>Web Development</h2></a>
+                <br>
+                <p>I have hands-on experience in web development, proficient in HTML, CSS, and JavaScript. I am skilled in creating responsive and visually appealing websites. My understanding of front-end frameworks, such as React, enhances my ability to build modern and interactive user interfaces. Additionally, I have a strong grasp of back-end technologies, including Node.js and Express, allowing me to develop full-stack applications.</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <img src="640px-Python.svg.jpeg" alt="Data Analysis Image">
+            <div class="skill-details">
+                <a href="https://www.geeksforgeeks.org/data-analysis-with-python/"><h2>Data Analysis with Python</h2></a>
+                <br>
+                <p>My proficiency in data analysis extends to Python, where I leverage libraries such as Pandas, NumPy, and Matplotlib. I have experience cleaning and processing large datasets, extracting meaningful insights, and creating visualizations to communicate findings effectively. Additionally, I am well-versed in using Jupyter Notebooks for exploratory data analysis and statistical modeling.</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <img src="C.jpeg" alt="C Programming Image">
+            <div class="skill-details">
+                <a href="https://en.wikipedia.org/wiki/C_(programming_language)"><h2>C Programming</h2></a>
+                <br>
+                <p>I have a strong foundation in C programming, including data structures and algorithms. My proficiency in C enables me to develop efficient and optimized software solutions. I am adept at problem-solving and algorithmic thinking, making me capable of tackling complex programming challenges. My knowledge of C extends to low-level programming, contributing to a comprehensive understanding of computer systems.</p>
+            </div>
+        </div>
+
+        <!-- Add more sections as needed -->
+
+    </div>
+
+</body>
+</html>

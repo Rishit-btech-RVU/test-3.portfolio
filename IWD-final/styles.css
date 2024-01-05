@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('Rishit guha formal.jpeg') center/cover no-repeat; 
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .home {
+    
+    height: 100vh;
+    position: relative;
+    color: #fff;
+    text-align: center;
+  }
+  
+ 
+  .nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    transition: all 0.1s ease;
+}
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Adjust the width as needed */
+    text-align: left;
+  }
+  
+  header {
+    padding: 100px 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 36px; /* Increase the font size as needed */
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  
+  section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .social-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    max-width: 100%;
+    margin-top: -150px;
+}
+
+.social-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+.social-box img {
+    width: 50px;
+    margin-bottom: 10px;
+    image-rendering: crisp-edges;
+}
+
+.social-box .social-content {
+    text-align: center;
+}
+
+.social-box a {
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: greenyellow;
+            background: url('Achievementss.gif') center/cover no-repeat fixed;
+            background-size: 100% 100%;
+        }
+
+        .achievements-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 100px;
+        }
+
+        .achievement {
+            display: flex;
+            text-align: left;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            width: 100%;
+        }
+
+        .achievement:hover {
+            transform: scale(1.03);
+        }
+
+        .achievement img {
+            width: 30%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .achievement-details {
+            padding-left: 20px;
+            width: 60%;
+        }
+
+        .achievement h2 {
+            margin: 10px 0;
+            color: #333;
+            font-size: 50px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .achievement p {
+            margin: 5px 0;
+            font-weight: bold;
+            color: #666;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            text-align: center;
+        }
+
+        .achievement-details img {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+    </style>
+    <title>Achievements Showcase</title>
+</head>
+<body>
+
+    <div class="achievements-container">
+        <!-- Achievement Section 1: Winning a Team Award for Patentable Card Game -->
+        <div class="achievement">
+            <img src="SI.jpeg" alt="Team Award for Patentable Card Game Image">
+            <div class="achievement-details">
+                <a href="link_to_more_info_1"><h2>Team Award for Patentable Card Game</h2></a>
+                <br>
+                <p>Our team received a prestigious award from RV University for developing a patentable card game. This achievement highlights our creativity and innovation in the field of game design.</p>
+            </div>
+        </div>
+
+        <!-- Achievement Section 2: Winning Gold in Basketball at DPS -->
+        <div class="achievement">
+            <img src="Basketball.jpeg" alt="Gold Medal in Basketball Image">
+            <div class="achievement-details">
+                <a href="link_to_more_info_2"><h2>Gold Medal in Basketball at DPS</h2></a>
+                <br>
+                <p>I proudly secured a gold medal in basketball at DPS, showcasing my dedication, teamwork, and excellence in sports. This achievement reflects my passion for athleticism and commitment to success.</p>
+            </div>
+        </div>
+
+        <!-- Achievement Section 3: Certificate from the Embassy of the Republic of Korea -->
+        <div class="achievement">
+            <img src="Korean.jpeg" alt="Certificate from the Embassy of the Republic of Korea Image">
+            <div class="achievement-details">
+                <a href="link_to_more_info_3"><h2>Certificate from the Embassy of the Republic of Korea</h2></a>
+                <br>
+                <p>I received a certificate of recognition from the Embassy of the Republic of Korea, acknowledging my contributions and efforts. This certificate reflects my commitment to fostering international relations and cultural understanding.</p>
+            </div>
+        </div>
+
+        <!-- Add more sections as needed -->
+
+    </div>
+
+</body>
+</html>

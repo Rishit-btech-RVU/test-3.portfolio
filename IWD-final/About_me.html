@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rishit Guha - About Me</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+      background: url('About_me.jpeg') center/cover no-repeat; /* Replace 'About_me.jpeg' with your actual image path */
+    }
+
+    .about-container {
+      width: 60%;
+      height: 100vh;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #fff; /* Set text color to contrast with the background */
+      text-align: center;
+      padding: 30px;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 3.0em;
+      color: black;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    h2 {
+      font-size: 2.0em;
+      color: black;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    p {
+      font-size: 1.5em;
+      line-height: 1.6;
+      color: black; /* Set the text color to black */
+      text-align: center; /* Align the text to the left */
+      font-family:serif;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 1.2em;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="about-container">
+    <h1><u>Rishit Guha</u></h1>
+    <p>Undergraduate Student | RV University, Bangalore, India</p>
+
+    <h2><u>About Me</u></h2>
+    <p>
+      Enthusiastic and detail-oriented undergraduate student at RV University, Bangalore, India, pursuing a degree in Computer Science. A dedicated coder with a keen interest in working on diverse projects, I possess a relentless curiosity that drives my passion for learning and staying at the forefront of emerging trends.
+    </p>
+
+    <p>
+      In my leisure time, I engage with podcasts to gain insights into the latest industry developments and technological advancements. Committed to honing my programming skills, I have successfully undertaken web development projects and demonstrated my problem-solving acumen by actively participating in coding challenges on platforms such as HackerRank and HackerEarth.
+    </p>
+
+    <p>
+      Eager to contribute to meaningful projects, I am planning to apply for the Google Summer of Code program, showcasing my commitment to open source development. Additionally, I am actively working towards obtaining certification in Network Defensive Essentials to further enhance my knowledge and skills in cybersecurity.
+    </p>
+
+    <button onclick="contactMe()">Contact Me</button>
+  </div>
+
+  <script>
+    function contactMe() {
+      alert("Feel free to reach out to me at rishitguha0824@gmail.com!");
+    }
+  </script>
+
+</body>
+</html>
